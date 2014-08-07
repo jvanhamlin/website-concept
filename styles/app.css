@@ -1,0 +1,42 @@
+/* Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:baseline;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}
+
+body {overflow: auto; font-family: 'Roboto', sans-serif; border-top:5px solid #09f; width: 100%; color: #333;}
+
+a {text-decoration: none;}
+h1,h2,h3,h4,h5,h6 {color: #FFA040; -webkit-font-smoothing:antialiased; font-family: 'Pacifico', cursive; margin-bottom: 0.25em;}
+h1 {font-size: 3em;}
+h2 {font-size: 2.5em;}
+h3 {font-size: 2em;}
+h4 {font-size: 1.5em;}
+h3 {font-size: 1.25em;}
+h4 {font-size: 1em;}
+p {margin-bottom: 1em;}
+
+/*Colors*/
+.blue {color: #00c7ff;}
+.pale-blue {color: #73e0ff;}
+.seafoam {73ff9d;}
+.orange {ff8100;}
+.light-orange {ffa040;}
+.pale-orange {ffba73;}
+
+#background {position: fixed; left: 0; top:0; width: 100%; height: 100%; z-index: -1; opacity: 0.3;}
+header {position: absolute; top: 75px; right: 0;}
+	nav ul {list-style: none; overflow: hidden;}
+	nav ul li {float: left;}
+	nav ul li a {display:block; line-height: 60px; height: 60px; color: #fff; font-size: 1.5em; text-transform: uppercase; padding: 0 15px; font-weight: 300; background: rgba(115, 224, 255, 0.4); transition:all 0.2s ease-in-out;}
+	nav ul li a:hover {background: rgba(0, 199, 255, 0.4);}
+	nav ul li.compass {background: rgba(64, 213, 255, 0.4);}
+	nav ul li.compass img {margin: 5px; width: 48px;}
+
+#content {width: 66%; margin: 200px auto 0 auto;}
+	#content h1 {text-align: center;}
+	#content h1.home {margin-bottom: 0.5em;}
+	#content p.home {text-align: center; font-size: 1.5em; line-height: 1.5em; font-weight: 300; font-style: italic;}
+	#content .icons {text-align: center;}
+	#content .icons .icon {display: inline-block; box-shadow:0 0 20px rgba(0,0,0,0.2); margin: 0 15px; position: relative;}
+	#content .icons .icon span {display: block; background: rgba(0, 199, 255, 0.5); padding: 10px; text-align: right; font-weight: bold; text-transform: uppercase; color: #fff;}
+	#content .icons .icon img {display: block;}
+	#content .icons .icon .overlay {position: absolute; width: 100%; height: 275px; background-color: rgba(115, 224, 255, 0.7); transition:all 0.2s ease-in-out;}
+	#content .icons .icon:hover .overlay {background-color: rgba(115, 224, 255, 0.4);}
